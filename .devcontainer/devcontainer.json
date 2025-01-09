@@ -1,0 +1,17 @@
+{
+    "name": "Daytona Project",
+    "image": "daytonaio/daytona:latest",
+    "postCreateCommand": "npm install && npm run build", // Adjust this for your project's setup
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.vscode-typescript-tslint-plugin",
+          "esbenp.prettier-vscode"
+        ]
+      }
+    },
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ]
+  }
+  
