@@ -1,17 +1,22 @@
 {
     "name": "Daytona Project",
-    "image": "daytonaio/daytona:latest",
-    "postCreateCommand": "npm install && npm run build", // Adjust this for your project's setup
+    "dockerFile": "Dockerfile", // If you're using your own Dockerfile
+    "postCreateCommand": "npm install && npm run build", // Adjust this for your project
     "customizations": {
       "vscode": {
         "extensions": [
           "ms-vscode.vscode-typescript-tslint-plugin",
           "esbenp.prettier-vscode"
-        ]
+        ],
+        "settings": {
+            "terminal.integrated.shell.linux": "/bin/bash"
+          }
       }
     },
     "mounts": [
       "source=${localWorkspaceFolder},target=/workspace,type=bind"
-    ]
+    ],
+    "forwardPorts": [3000], // Adjust to your project's port
+   
   }
   

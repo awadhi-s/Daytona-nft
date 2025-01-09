@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="flex flex-row justify-center items-center mt-2">
         <img src={ethlogo} alt="logo" className="w-8" />
         <span className="text-white text-xs">
-          Adulam © 2016 - 2022 With Love ❤️ Daltonic
+          Awadhi © 2021 - 2022 With Love ❤️ 
         </span>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Header = () => {
     <nav className="w-4/5 flex md:justify-center justify-between items-center py-4 mx-auto">
       <div className="flex flex-row justify-start items-center md:flex-[0.5] flex-initial">
         <img className="w-8 cursor-pointer" src={ethlogo} alt="Adulam Logo" />
-        <span className="text-white text-2xl ml-2">Adulam</span>
+        <span className="text-white text-2xl ml-2">AWADHI</span>
       </div>
 
       <ul

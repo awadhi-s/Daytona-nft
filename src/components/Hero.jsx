@@ -1,4 +1,4 @@
-import avatar from '../assets/owner2.jpeg'
+import avatar from '../assets/owner.jpg'
 import github from '../assets/github_icon.png'
 import facebook from '../assets/facebook_icon.png'
 import twitter from '../assets/twitter_icon.png'
@@ -58,7 +58,7 @@ const Hero = () => {
             />
             <div className="flex flex-col font-semibold">
               <span className="text-white text-sm">0xf55...146a</span>
-              <span className="text-[#e32970] text-xs">ROHAN</span>
+              <span className="text-[#e32970] text-xs">AWADHI</span>
             </div>
           </a>
 
